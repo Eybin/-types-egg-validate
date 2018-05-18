@@ -1,5 +1,4 @@
 declare module 'egg' {
-
     interface Context {
         validate: (rule: IValidateRule, data?: any) => void;
     }
